@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Alarm Monitoring Server</title>
+		<style type="text/css">
+			@keyframes alertRGBdemo
+			{
+				0% {background-color: #ff0044;}
+				50% {background-color: #ff0022;}
+				100% {background-color: #cc0000;}
+			}
+			
+			div#leftOne
+			{
+			position:absolute;
+			left:100px;
+			top:150px
+			}
+			div#middleOne
+			{
+			position:absolute;
+			left:450px;
+			top:150px
+			}
+			div#rightOne
+			{
+			position:absolute;
+			left:800px;
+			top:150px
+			}
+			div#leftTwo
+			{
+			position:absolute;
+			left:100px;
+			top:380px;
+			}
+			div#middleTwo
+			{
+			position:absolute;
+			left:450px;
+			top:380px;
+			}
+			div#rightTwo
+			{
+			position:absolute;
+			left:800px;
+			top:380px;
+			}
+			.stations
+			{
+				border-radius: 30px;
+				border-color: white;
+				line-height:60px;
+				width:350px;
+				height:230px;
+				display: flex;
+				max-width: 400px;
+				margin: 1 em;
+				text-align:center;
+				color:white;
+				box-shadow:inset 0 0 0 5px ;
+				<!--animation: alertRGBdemo 2s infinite;-->
+				
+			}
+			.titel
+			{
+				padding: 20px 20px 20px 20px;
+			}
+			.stationName
+			{
+				color:black;
+			}
+			<!--div#alarmBackgroundColorRed
+			{
+			position:absolute;
+			left:150px;
+			top:162px;
+			}
+			.top-right {
+			position: absolute;
+			border-radius: 25px;
+			padding: 3px;
+			top: 8px;
+			right: 16px;
+			background-color:red;
+						}-->
+
+			</style>
+	</head>
+	
+	<body>
+		<div class="titel">
+			<h1>Status</h1>
+		</div>
+		
+		<!--<div class="stations" name="station1" id=alarmLogoRed >
+			<img src="kisspng-computer-icons-scalable-vector-graphics-sos-person-5c58952e11d679.3132771715493092300731.png" width="200" height="100">
+			<div class="top-right" style="color:white">0</div>
+		</div>-->
+		
+		<div class="stations" name="station1" id=leftOne>
+			<h3 class = "stationName" >Station 1</h3>
+			<img src="p1.png" width="300" height="200">
+		</div>
+		
+		<div class="stations" name="station2" id=middleOne>
+			<h3 class = "stationName" >Station 2</h3>
+			<img src="p2.png" width="300" height="200">
+		</div>
+		<div class="stations" name="station3" id=rightOne>
+			<h3 class = "stationName" >Station 3</h3>
+			<img src="p1.png" width="300" height="200">
+		</div>
+		<div class="stations" name="station4"  id=leftTwo>
+			<h3 class = "stationName" >Station 4</h3>
+			<img src="p2.png" width="300" height="200">
+		</div>
+		<div class="stations"  name="station5" id=middleTwo>
+			<h3 class = "stationName" >Station 5</h3>
+			<img src="p1.png" width="300" height="200">
+		</div>
+		<div class="stations"  name="station6" id=rightTwo>
+			<h3 class = "stationName" >Station 6</h3>
+			<img src="p2.png" width="300" height="200">
+		</div>
+		
+	</body>
+</html>
